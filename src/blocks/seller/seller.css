@@ -1,0 +1,12 @@
+.seller__text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -1px;
+    color: #FAFAFA;
+}
+
+.seller__list {
+    display: flex;
+    justify-content: space-between;
+}

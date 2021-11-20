@@ -1,0 +1,9 @@
+.seller-item {
+    width: 20%;
+    border: 1px solid #323131;
+    box-sizing: border-box;
+}
+
+.seller-item__container {
+    margin: 21px 12px 12px;
+}
