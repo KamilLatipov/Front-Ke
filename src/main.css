@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 73px;
+  letter-spacing: -1.75px;
+  color: white;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: black;
+  color: #FAFAFA;
+  font-family: 'Inter', sans-serif;
+}

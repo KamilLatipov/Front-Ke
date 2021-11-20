@@ -1,0 +1,10 @@
+.main-page__container {
+    padding-top: 90px;
+    padding-bottom: 124px;
+    background: no-repeat center 70px url("../../img/chart.png");
+}
+
+.main-page__section {
+    max-width: 1130px;
+    margin: 0 auto;
+}

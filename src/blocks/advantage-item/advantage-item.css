@@ -1,0 +1,59 @@
+.advantage-item {
+    flex-basis: 264px;
+    background: #1C1C1C;
+    border-radius: 8px;
+}
+
+.advantage-item__container {
+    width: 88%;
+    margin: 16px auto;
+}
+
+.advantage-item__image {
+    position: relative;
+    height: 170px;
+    margin: 2px 0;
+}
+
+.advantage-item__image--lower {
+    height: 190px;
+}
+
+.advantage-item__text {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: #DBD9D9;
+}
+
+.advantage-item__box {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    top: 24px;
+    left: 98px;
+}
+
+.advantage-item__cam {
+    position: absolute;
+    width: 96px;
+    height: 82px;
+    top: 15px;
+    left: 67px;
+}
+
+.advantage-item__diamond {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 56px;
+    left: 56px;
+}
+
+.advantage-item__car {
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    top: 17px;
+    left: 92px;
+}

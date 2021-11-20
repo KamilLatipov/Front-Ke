@@ -1,0 +1,14 @@
+.advantage {
+    width: 100%;
+}
+
+.advantage__title {
+    max-width: 936px;
+}
+
+.advantage__list {
+    display: flex;
+    flex-basis: 250px;
+    justify-content: space-between;
+    margin-top: 63px;
+}
