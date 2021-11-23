@@ -1,4 +1,32 @@
+.seller {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seller__title {
+    margin-bottom: 32px;
+}
+
+@media (max-width: 640px) {
+    .seller__title {
+        width: 400px;
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    .seller__title {
+        width: 180px;
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 26px;
+    }
+}
+
 .seller__text {
+    max-width: 706.3px;
+    margin-bottom: 34px;
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
@@ -6,7 +34,122 @@
     color: #FAFAFA;
 }
 
+@media (max-width: 960px) {
+    .seller__text {
+        font-size: 23px;
+        line-height: 32px;
+        letter-spacing: -0.5px;
+        margin-bottom: 29px;
+    }
+}
+
+@media (max-width: 320px) {
+    .seller__text {
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.5px;
+        margin-bottom: 22px;
+    }
+}
+
+@media (max-width: 960px) {
+    .seller__container {
+        max-width: 586px;
+    }
+}
+
+@media (max-width: 320px) {
+    .seller__container {
+        max-width: 288px;
+    }
+}
+
 .seller__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 836px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 640px) {
+    .seller__list {
+        margin-bottom: 31px;
+    }
+}
+
+@media (max-width: 320px) {
+    .seller__list {
+        margin-bottom: 22px;
+    }
+}
+
+.seller__nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+    .seller__nav {
+        width: 100%;
+    }
+}
+
+.seller__link-container {
+    width: 190px;
+    margin-right: 16px;
+}
+
+@media (max-width: 640px) {
+    .seller__link-container {
+        width: 100%;
+        margin: 0 0 12px 0;
+    }
+}
+
+.seller__link {
+    display: inline-block;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: #FAFAFA
+}
+
+@media (max-width: 640px) {
+    .seller__link {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.seller__link--red {
+    background-color: #DE2323;
+    border-radius: 6px;
+}
+
+.seller__image {
+    position: relative;
+    width: 260px;
+}
+
+.seller__small-heart {
+    position: absolute;
+    bottom: -45px;
+    left: -90px;
+    z-index: 1;
+}
+
+.seller__medium-heart {
+    position: absolute;
+    bottom: -65px;
+    right: -36px;
+    z-index: 1;
+}
+
+.seller__large-heart {
+    position: absolute;
+    right: 60px;
+    top: 10px;
 }

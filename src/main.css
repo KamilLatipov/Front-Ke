@@ -28,12 +28,31 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  opacity: 0.5;
+}
+
 h1 {
   font-weight: bold;
   font-size: 57px;
   line-height: 73px;
   letter-spacing: -1.75px;
   color: white;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -1.5px;}
 }
 
 h3 {
@@ -45,6 +64,7 @@ h3 {
 }
 
 body {
+  position: relative;
   background-color: black;
   color: #FAFAFA;
   font-family: 'Inter', sans-serif;

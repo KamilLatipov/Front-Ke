@@ -6,9 +6,54 @@
     max-width: 936px;
 }
 
+@media (max-width: 960px) {
+    .advantage__title {
+        max-width: 592px;
+    }
+}
+
+@media (max-width: 320px) {
+    .advantage__title {
+        max-width: 288px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .advantage__br {
+        display: block;
+    }
+}
+
+.advantage__br {
+    display: none;
+}
+
+@media (max-width: 320px) {
+    .advantage__br {
+        display: block;
+    }
+}
+
 .advantage__list {
     display: flex;
-    flex-basis: 250px;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 63px;
+}
+
+@media (max-width: 960px) {
+    .advantage__list {
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 640px) {
+    .advantage__list {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .advantage__list {
+        margin-top: 32px;
+    }
 }
