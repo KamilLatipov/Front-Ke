@@ -1,0 +1,79 @@
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+td {
+  display: table-cell;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.benefit {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.benefit-table__first-column {
+  width: 456px;
+}
+
+.benefit-table__second-column {
+  width: 370px;
+}
+
+.benefit-table__third-column {
+  width: 247px;
+}
+
+@media (max-width: 1280px) {
+  .benefit-table__column {
+    width: 33%;
+  }
+}
+
+.benefit__section {
+  max-width: 1128px;
+}
+
+.benefit-table__row {
+  border-bottom: 1px solid #646363;
+}
+
+.benefit-table__body .benefit-table__row:last-child {
+  border: none;
+}
+
+.benefit-table__row .benefit-table__cell:first-child {
+  padding-left: 56px;
+}
+
+@media (max-width: 1280px) {
+  .benefit-table__row .benefit-table__cell:first-child {
+    padding-left: 32px;
+  }
+}
+
+.benefit-table__head-cell {
+  text-align: left;
+  padding: 9px 8px 25.5px;
+}
+
+.benefit-table__cell {
+  padding: 26.5px 8px;
+}
